@@ -32,7 +32,7 @@ const Sidebar = () => {
     }
   }, [isRouting]);
   return (
-    <div className="fixed right-8 top-[40%] z-[20] h-[150px] w-[48px] rounded-full bg-gray-500 bg-opacity-50">
+    <div className="fixed right-2.5  md:right-8 top-[40%] z-[20] h-[150px] w-[48px] rounded-full bg-gray-500 bg-opacity-50">
       <AnimatePresence mode="wait">
         {isRouting && <Transition />}
         <div className="flex flex-col gap-5 pb-3 justify-center items-center h-full">

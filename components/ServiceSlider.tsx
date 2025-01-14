@@ -47,7 +47,7 @@ const ServiceSlider = () => {
                             />
                             <div className="absolute inset-0 bg-gray-800 opacity-60 group-hover:opacity-70" />
                             <div className="relative flex flex-col gap-3">
-                                <item.icon className="text-blue-600 group-hover:text-blue-400 w-[32px] h-[32px]" />
+                                <item.icon className="text-blue-600 group-hover:text-blue-400 w-8 h-7" />
                                 <h1 className="text-xl lg:text-2xl">{item.title}</h1>
                                 <p className="lg:text-[18px]">{item.content}</p>
                             </div>
